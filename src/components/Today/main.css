@@ -1,0 +1,11 @@
+.weatherImage {
+    width: 50%;
+    max-width: 200px;
+    display: block;
+    margin: 40px auto;
+}
+
+.todayTemp {
+    font-weight: normal;
+    text-align: center;
+}

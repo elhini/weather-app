@@ -1,0 +1,33 @@
+.week {
+    width: 100%;
+    border: none;
+    border-collapse: inherit;
+    border-spacing: 0;
+    text-align: left;
+}
+.week tr.sunny {
+    background: #fff8de;
+}
+.week tr.cloudy {
+    background: #f7fcff;
+}
+.week tr.rainy {
+    background: #eaeaea;
+}
+.week tr.snowy {
+    background: #eef6f9;
+}
+.week td {
+    padding: 10px;
+}
+.week .date {
+    padding-left: 20px;
+}
+.week .weatherIcon {
+    padding-right: 20px;
+    width: 50px;
+    height: 50px;
+}
+.week .weatherIcon img {
+    display: block;
+}

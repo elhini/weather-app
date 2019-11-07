@@ -1,0 +1,67 @@
+#root {
+  max-width: 640px;
+  margin: 0 auto;
+}
+
+.locationQuery {
+  margin: 30px auto;
+  padding: 3px;
+  width: 56%;
+  display: block;
+  text-align: center;
+  border: 1px solid #ccc;
+  padding: 5px 10px;
+  border-radius: 15px;
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+}
+.locationQuery:focus {
+  outline: 0;
+  border-color: rgba(82, 168, 236, 0.8);
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(82, 168, 236, 0.6);
+}
+.locationQuery:disabled {
+  background: #eee;
+}
+.locationQuery.invalid {
+  border-color: #b94a48;
+  color: #b94a48;
+}
+.locationQuery.invalid:focus {
+  border-color: #953b39;
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 6px #d59392;
+}
+
+nav {
+  margin: 30px;
+}
+
+nav ul {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+}
+nav ul li {
+  flex: 1 1 auto;
+  text-align: center;
+}
+nav ul li a {
+  padding: 5px 10px;
+  border-radius: 15px;
+  text-decoration: none;
+  color: #000;
+}
+nav ul li a:hover {
+  background: #aaa;
+  color: #fff;
+}
+nav ul li a.selected {
+  background: #888;
+  color: #fff;
+}
+
+.state {
+  text-align: center;
+  margin: 30px;
+}

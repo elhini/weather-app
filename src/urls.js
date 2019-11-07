@@ -1,0 +1,1 @@
+export const weatherProviderHost = 'https://www.metaweather.com';
